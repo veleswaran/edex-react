@@ -8,12 +8,15 @@ export default function Layout({ children }) {
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="mynavbar">
-                        <ul class="navbar-nav me-auto">
+                        <ul class="navbar-nav mx-auto">
                             <li class="nav-item">
                                 <a class="nav-link" href="/users">users</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/user">Create</a>
+                            </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="/product">Product</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/about">About</a>
@@ -80,7 +83,7 @@ export default function Layout({ children }) {
                             </p>
                         </div>
 
-                        
+
                     </div>
                 </div>
             </footer>
